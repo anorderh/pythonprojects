@@ -1,0 +1,34 @@
+!!! FORMAT !!! (NOTE: DON'T EDIT THESE FIRST 4 LINES + CHANGE STARTING POINT IN .PY FILE, LINE 88):
+""<Room Name>"" "<Description>"
+"<direction>:<Room Name>"", ...
+
+"Forest" "Long birch trees form a canopy around the castle's entrance."
+"Back:Grand Hall"
+
+"Grand Hall" "Warmth beams down onto your skin from the windows. It's peaceful."
+"forward:Upstairs" "left:Dining Room" "right:Living Room" "back:Forest"
+
+"Dining Room" "A large, antique table at the room's center. Laying on it are unusually dirty silverware."
+"back:Grand Hall" "right:Kitchen"
+
+"Kitchen" "Pots and pans hang perfectly still above an island of granite."
+"back:Dining Room"
+
+"Living Room" "You take a seat on a maroon, leather couch. Quite comfy."
+"back:Grand Hall" "right:Chapel" "left:Armory"
+
+"Chapel" "Light peeks out from stained glass. It's holy, and frightening."
+"back:Living Room"
+
+"Armory" "Upon entering a large, cumbersome figure approaches. Only to reveal itself as a stationary suit of armor."
+"back:Living Room" "forward:Throne Room"
+
+"Throne Room" "A golden, linen-covered throne fitting for a king. Void of any cushion."
+"back:Armory" "left:Upstairs"
+
+"Upstairs" "A marble staircase whose sleek railings seem to provoke you in riding them down. The thought passes."
+"left:Personal Chambers" "right:Throne" "back:Grand Hall"
+
+"Personal Chambers" "Royal insignia scatter the room. Luxurious clothes too, but in hasty shreds"
+"back:Upstairs"
+
